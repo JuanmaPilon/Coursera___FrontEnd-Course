@@ -24,8 +24,8 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
+  color: #3f08f3;
+  font-size: 1.7em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -120,6 +120,12 @@ body {
   border: 2px solid #3F0C1F;
 }
 
+#menutitlemain {
+  color: #557c3e;
+  text-align: center;
+  text-size-adjust: 1.8em;
+}
+
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
@@ -131,26 +137,34 @@ body {
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
-  background-position: center;
-}
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
-  background-position: center;
-}
+
+
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.2em;
   text-transform: uppercase;
   background-color: #000;
-  color: #fff;
+  color: rgb(255, 255, 255);
   opacity: .8;
 }
+
+#title1id, #title2id, #title3id{
+  position: top;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  opacity: .8;
+}
+
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
